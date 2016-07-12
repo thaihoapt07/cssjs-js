@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://thietbigiaitri.net/' target='_blank'><img src='http://i242.photobucket.com/albums/ff41/dong0dong/Untitled-1_zpscm4tgy95.jpg' width='500px'/>Chuyên cung cấp các thiết bị thu âm</a>. Giao hàng toàn quốc. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://thietbigiaitri.net' target='_blank'><img src='http://i242.photobucket.com/albums/ff41/dong0dong/Untitled-1_zpscm4tgy95.jpg' width='500px'/>Chuyên cung cấp các thiết bị thu âm</a>.Giao hàng toàn quốc. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
